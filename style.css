@@ -19,6 +19,33 @@ header {
     text-align: center;
 }
 
+/* Style for the login button */
+.login-button {
+    float: right;
+    margin-right: 20px;
+}
+
+.login {
+    background-color: #1abc9c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.login:hover {
+    background-color: #16a085;
+}
+
+nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
