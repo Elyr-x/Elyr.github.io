@@ -1,4 +1,3 @@
-// Basic form validation before submitting (optional)
 document.querySelector('form').addEventListener('submit', function (e) {
     const name = document.querySelector('#name').value;
     const email = document.querySelector('#email').value;
